@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Earth Blossom Nursery</title>
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom Styles -->
+  <style>
+    .hero-section {
+      background-color: #6DBE45;
+      color: white;
+      text-align: center;
+      padding: 50px 0;
+    }
+    .category-btn {
+      border-radius: 20px;
+      padding: 10px 20px;
+      background-color: #ff9800;
+      color: white;
+      transition: background-color 0.3s;
+    }
+    .category-btn:hover {
+      background-color: #ff5722;
+    }
+    .plant-gallery {
+      background-color: #f8f9fa;
+      padding: 40px 0;
+    }
+    .plant-gallery h2 {
+      font-size: 2rem;
+      color: #4CAF50;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .plant-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+    .plant-card:hover {
+      transform: scale(1.05);
+    }
+    .plant-card img {
+      max-height: 200px;
+      object-fit: cover;
+      width: 100%;
+    }
+    .footer {
+      background-color: #28a745;
+      color: white;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #4CAF50;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Earth Blossom Nursery</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signin.html">Sign In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section">
+    <h1>Welcome to Earth Blossom Nursery</h1>
+    <p>Your online destination for beautiful plants!</p>
+    <div class="d-flex justify-content-center">
+      <a href="indoor_plants.html" class="category-btn me-3">Indoor Plants</a>
+      <a href="outdoor_plants.html" class="category-btn me-3">Outdoor Plants</a>
+      <a href="succulents.html" class="category-btn me-3">Succulents</a>
+      <a href="air_purifying_plants.html" class="category-btn me-3">Air Purifying Plants</a>
+    </div>
+  </header>
+
+  <!-- Plant Gallery Section -->
+  <section class="plant-gallery">
+    <h2>Explore Our Beautiful Plants</h2>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Plant Card 1 -->
+        <div class="col">
+          <div class="card plant-card">
+            <!-- <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Fiddle Leaf Fig"> -->
+            <img src="images/fiddle-leaf-fig-plant-708ec781f9e040b4a817c79605d3440e.jpg" alt="Fiddle leaf fig">
+            <div class="card-body">
+              <h5 class="card-title">Fiddle Leaf Fig</h5>
+              <p class="card-text">Perfect for bringing a touch of nature indoors.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Plant Card 2 -->
+        <div class="col">
+          <div class="card plant-card">
+            <!-- <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Snake Plant"> -->
+            <img src="images/istockphoto-1268045137-400x300.jpg" class="card-img-top" alt="Snake Plant">
+            <div class="card-body">
+              <h5 class="card-title">Snake Plant</h5>
+              <p class="card-text">Low-maintenance and beautiful addition to any room.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Plant Card 3 -->
+        <div class="col">
+          <div class="card plant-card">
+            <!-- <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Aloe Vera"> -->
+            <img src="images/aloevera images.jpg" class="card-img-top" alt="Aloe Vera">
+            <div class="card-body">
+              <h5 class="card-title">Aloe Vera</h5>
+              <p class="card-text">An easy-to-care-for succulent with healing properties.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Plant Card 4 -->
+        <div class="col">
+          <div class="card plant-card">
+            <!-- <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Peace Lily"> -->
+            <img src="images/pngtree-4-white-peace-lilies-in-a-pot-picture-image_2779030.jpg" class="card-img-top" alt="Peace Lily">
+            <div class="card-body">
+              <h5 class="card-title">Peace Lily</h5>
+              <p class="card-text">A stunning plant that purifies the air in your home.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Plant Card 5 -->
+        <div class="col">
+          <div class="card plant-card">
+            <!-- <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Spider Plant"> -->
+            <img src="images/Spider-Plant-1024x683.fit (1).png" class="card-img-top" alt="Spider Plant">
+            <div class="card-body">
+              <h5 class="card-title">Spider Plant</h5>
+              <p class="card-text">An attractive and easy-to-grow houseplant.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Plant Card 6 -->
+        <div class="col">
+          <div class="card plant-card">
+            <!-- <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Spider Plant"> -->
+            <!-- <img src="images/Aimage_28dac659-d2ee-40fe-b988-4b039c33eb88.webp" class="card-img-top" alt="Bamboo Palm">  -->
+            <img src="images/review-image.png" class="card-img-top" alt="Bamboo Palm"> 
+           
+           
+            <div class="card-body">
+              <h5 class="card-title">Indoor Plant</h5>
+              <p class="card-text">An attractive and easy-to-grow houseplant.</p>
+            </div>
+          </div>
+        </div>
+
+         <!-- Plant Card 7 -->
+         <div class="col">
+          <div class="card plant-card">
+            <!-- <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Spider Plant"> -->
+            <img src="images/plant-item8.jpg" class="card-img-top" alt="Spider Plant">
+            <div class="card-body">
+              <h5 class="card-title">Cane Plant</h5>
+              <p class="card-text">An attractive and easy-to-grow houseplant.</p>
+            </div>
+          </div>
+        </div>
+
+          <!-- Plant Card 8 -->
+          <div class="col">
+            <div class="card plant-card">
+              <!-- <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Spider Plant"> -->
+              <img src="images/plant-item10.jpg" class="card-img-top" alt="Spider Plant">
+              <div class="card-body">
+                <h5 class="card-title">Indoor Plant</h5>
+                <p class="card-text">An attractive and easy-to-grow houseplant.</p>
+              </div>
+            </div>
+          </div>
+        <!-- Plant Card 9 -->
+        <div class="col">
+          <div class="card plant-card">
+            <!-- <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Bamboo Palm"> -->
+           
+            <img src="images/plant-item9.jpg" class="card-img-top" alt="Spider Plant">
+            <div class="card-body">
+              <h5 class="card-title">Ficus plant</h5>
+              <p class="card-text">A low-maintenance plant that thrives indoors.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <!-- <footer class="footer text-center" style="background-color: #28a745; color: white;">
+    <p>&copy; 2024 Earth Blossom Nursery. All rights reserved.</p>
+  </footer> -->
+
+  <!-- Footer Section -->
+<footer style="background-color: #28a745; color: #fff; padding: 40px 0; text-align: center;">
+  <div class="footer-container" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+      
+      <!-- Logo and Description -->
+      <div class="footer-logo" style="margin-bottom: 20px;">
+          <img src="path/to/your/logo.png" alt="/EarthBlossomNursery Logo" style="max-height: 60px; width: auto;">
+      </div>
+      
+     
+      
+      
+      <!-- Contact Information -->
+      <div class="footer-contact" style="margin-bottom: 20px;">
+          <p style="font-size: 16px;">For inquiries, please email us at:</p>
+          <p style="font-size: 16px;">
+              <a href="mailto:info@/EarthBlossomNursery.com" style="color: #fff; text-decoration: none;">info@EarthBlossomNursery.com</a>
+          </p>
+          <p style="font-size: 16px;">Call us: <strong>(123) 456-7890</strong></p>
+      </div>
+      
+      <!-- Social Media Links -->
+      <div class="footer-social" style="margin-bottom: 20px;">
+          <a href="https://www.facebook.com//EarthBlossomNursery" target="_blank" style="color: #fff; margin: 0 15px; font-size: 20px;">
+              <i class="fab fa-facebook-f"></i> <!-- Font Awesome Facebook Icon -->
+          </a>
+          <a href="https://twitter.com//EarthBlossomNursery" target="_blank" style="color: #fff; margin: 0 15px; font-size: 20px;">
+              <i class="fab fa-twitter"></i> <!-- Font Awesome Twitter Icon -->
+          </a>
+          <a href="https://www.instagram.com//EarthBlossomNursery" target="_blank" style="color: #fff; margin: 0 15px; font-size: 20px;">
+              <i class="fab fa-instagram"></i> <!-- Font Awesome Instagram Icon -->
+          </a>
+          <a href="https://www.pinterest.com/EarthBlossomNursery" target="_blank" style="color: #fff; margin: 0 15px; font-size: 20px;">
+              <i class="fab fa-pinterest"></i> <!-- Font Awesome Pinterest Icon -->
+          </a>
+      </div>
+      
+      <!-- Additional Information -->
+      <div class="footer-bottom" style="font-size: 14px; color: #ccc;">
+          <p>&copy; 2024 Earth Blossom  Nursery | All Rights Reserved</p>
+          <p>Made with ❤️ by [EarthBlossomNursery]</p>
+      </div>
+  </div>
+</footer>
+
+<!-- Font Awesome CDN for Social Icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+  <!-- Bootstrap 5 JS, Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
